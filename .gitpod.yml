@@ -1,0 +1,7 @@
+tasks:
+  - init: npm install && npm run build
+    command: npm run start
+
+vscode:
+  extensions:
+    - davidanson.vscode-markdownlint@0.38.0:MCcSWKBmgWaXjm6m9AHE2Q==
