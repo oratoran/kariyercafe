@@ -1,6 +1,6 @@
 {
-    "name": "TODO",
-    "description": "TODO",
+    "name": "KariyerCafe",
+    "description": "Gülhan Berkman için Hazırladığımız KariyerCafe.com web sitesi. İletişim: Özgür Dinçer (ozgurdincer@kentajans.com)",
     "version": "0.0.1",
     "scripts": {
         "dev": "sapper dev",

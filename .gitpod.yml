@@ -5,3 +5,4 @@ tasks:
 vscode:
   extensions:
     - davidanson.vscode-markdownlint@0.38.0:MCcSWKBmgWaXjm6m9AHE2Q==
+    - svelte.svelte-vscode@102.7.0:D2RM2YISmYGdoUzG1T7cXg==
