@@ -8,11 +8,24 @@
 	%sapper.base%
 
     <link rel='stylesheet' href='global.css'>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Rubik:wght@400;600;700&display=swap" media="print" onload="this.onload=null;this.removeAttribute('media');" rel="stylesheet">
-	<link rel='stylesheet' href='highlight.css'>
+    <link rel='stylesheet' href='highlight.css'>
 	<link rel='manifest' href='manifest.json'>
-	<link rel='icon' type='image/png' href='favicon.png'>
+    <link rel='icon' type='image/png' href='favicon.png'>
+    <script>
+        var WebFontConfig = {
+	google: {
+		families: ['Merriweather', 'Rubik']
+	},
+	timeout: 2000
+};
+
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
