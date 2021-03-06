@@ -19,6 +19,7 @@
 
 <svelte:head>
   <title>Hakkımızda</title>
+  <meta name="description" content="Kariyer Cafe Gülhan Berkman Yakar tarafından hazırlanmaktadır.">
 </svelte:head>
 
 <div class="container">

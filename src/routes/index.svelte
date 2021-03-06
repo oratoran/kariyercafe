@@ -62,16 +62,17 @@
 
 <svelte:head>
   <title>Kariyer Cafe</title>
+  <meta name="description" content="Kariyer Cafe ile günlük İK dozunuzu alın! Güncel kariyer sohbetlerinin keyfine varın.">
 </svelte:head>
 
 <div class="home-container">
   <div class="home-copy">
     <h1>Günlük IK Dozunuz</h1>
-    <p>Gülhan Berkman web sitesi için <a href="https://www.gulhanberkman.com" target="_blank">tıklayınız</a></p>
+    <p>Gülhan Berkman web sitesi için <a href="https://www.gulhanberkman.com" target="_blank" rel="noreferrer">tıklayınız</a></p>
   </div>
 
   <figure>
-    <img alt='Person typing on laptop' src='undraw-illustration.svg'>
-    <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank">Undraw</a></figcaption>
+    <img alt='Person typing on laptop' src='undraw-illustration.svg' width="400" height="353">
+    <figcaption>Illustration thanks to <a href="https://undraw.co" target="_blank" rel="noreferrer">Undraw</a></figcaption>
   </figure>
 </div>
